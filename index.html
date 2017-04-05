@@ -3,18 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>lele</title>
-
-</head>
-<body>
-<h1>xianyiren</h1>
-<h2>第一章</h2>
-<h3>第一小节</h3>
-<div id="qqq">qqq</div>
-<div id="www">www</div>
-<div class="boy small">boy friend1</div>
-<div class="boy">boy friend1</div>
-<div class="girl small">some friend1</div>
-<div class="girl">girl friend1</div>
 	<style type="text/css">
 		div{
 			border:2px solid blue;
@@ -38,6 +26,49 @@
 		margin: 3px;
 		border: 2px solid pink;
 	}
+	.pinkgirl{
+		font-size: 40px;
+		color:green;
+	}
+	#eee{
+font-size: 0.1px;
+color:gray;
+	}
 	</style>
+</head>
+<body>
+<h1>xianyiren</h1>
+<h2>第一章</h2>
+<h3>第一小节</h3>
+<div id="qqq"><em>qqq</em></div>
+<div id="www">www</div>
+<div class="boy small"><span id="eee">boy</span> friend1</div>
+<div class="boy">boy friend1</div>
+<div class="girl small"><span class="pinkgirl">girl</span> friend1</div>
+<div class="girl">girl friend1</div>
+<a target="_blank " href="http://weibo.com/p/1005052655764463/home?from=page_100505&mod=TAB#place"><img  style="width: 200px;height: 250px" src="http://ww3.sinaimg.cn/mw690/9e4bbfefjw8fckmm6hbxyj20ku0ku402.jpg"></a>
+
+<p> 这是一句话</p>
+<p>
+	账号
+	<input type="text" id="yangyu">
+</p>
+<p>
+	学号
+	<input type="text" id="huyan" >
+</p>
+<p>密码
+<input type="password" >
+</p>
+<button type="button" onclick="submit()">click me! </button>
+
+<script >
+	function submit(){
+		alert(document.getElementById('yangyu').value+','+document.getElementById('huyan').value)
+		}
+		</script>
+
+
+
 </body>
 </html>
